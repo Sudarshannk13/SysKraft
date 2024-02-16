@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Syskraft</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to Font Awesome stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-......"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <div class="col-mix" id="navbar_top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-dark">
+              <a
+                class="navbar-brand text-center"
+                href="#"
+                onclick="scrollToSection('hero-section')"
+              >
+                <img src="images/logo.png" alt="" class="img-fluid" />
+              </a>
+
+              <div class="justify-content-end">
+                <a href="#" id="burger-menu">
+                  <img src="./images/burger-icon.png" alt="burger-icon" />
+                </a>
+              </div>
+
+              <div id="menu" style="display: none">
+                <div id="close-btn">✕</div>
+                <!-- Add your menu items here -->
+                <a href="./index.html" onclick="scrollToSection('hero-section')"
+                  >Home</a
+                >
+                <a href="./index.html#whyerp">Why ERP</a>
+                <a href="./index.html#erpmyths">ERP Myths</a>
+                <a href="./index.html#whatwedo">What we do</a>
+                <a href="./index.html#whywork">Why work with us</a>
+                <a href="./index.html#connect">
+                  <button
+                    type="button"
+                    class="btn rounded-pill custom-button px-4 py-2 col-mix animatedElement"
+                  >
+                    Contact Us
+                  </button>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- hero section -->
+    <section
+      class="hero-section d-flex align-items-center section1"
+      id="hero-section"
+    >
+      <div class="custom-section container">
+        <div class="row mt-5">
+          <div
+            class="col-lg-6 px-4 scroll slideLeftToRightUpwards"
+            data-rate=".4"
+            data-direction="vertical"
+          >
+            <h2 class="col-pink headOne p-0 m-0 animatedElement">WHO</h2>
+            <h2 class="col-blue headTwo p-0 m-0 animatedElement">WE ARE</h2>
+            <div class="py-3">
+              <p class="animatedElement">
+                We are a team of business operations & system professionals who
+                empower companies with ERP solutions for data-driven
+                decision-making
+              </p>
+              <p class="animatedElement mb-md-5">
+                Our focus is to precisely align technology solutions with our
+                clients' distinct needs and objectives, thereby empowering
+                businesses to optimize resource allocation, elevate
+                decision-making processes, and propel sustainable growth
+              </p>
+              <button
+                type="button"
+                class="btn rounded-pill custom-button px-4 py-2 col-mix"
+              >
+                Let's Connect
+              </button>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 p-2 scroll text-lg-end"
+            data-rate=".4"
+            data-direction="vertical"
+          >
+            <img
+              src="images/babner_2.png"
+              alt="Who we are image"
+              class="img-fluid text-center animatedElement mob-img"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+              <p>
+                Scroll down<br />
+                <i class="fas fa-chevron-down me-2"></i> <br />
+              </p>
+              <p>
+                <img
+                  src="images/scroll-down.png"
+                  onclick="scrollToSection('whyerp')"
+                  alt="scroll down icon"
+                  class="mouse-icon"
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why should we consider you -->
+    <section class="d-flex why-to-consider section2" id="whyerp">
+      <div class="custom-section container scroll" data-direction="vertical">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="col-pink headOne head-1 animatedElement">WHY</h2>
+            <h3 class="col-blue headTwo animatedElement">ERP</h3>
+          </div>
+        </div>
+        <div class="owl-carousel animatedElement owl-theme">
+          <div class="item">
+            <div class="col px-2">
+              <div class="card col-bg">
+                <row>
+                  <div class="col-2">
+                    <img
+                      src="images/icon_1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                </row>
+                <div class="card-body">
+                  <h5 class="card-title col-pink py-0">COST SAVINGS</h5>
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button px-0 collapsed col-bg"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                          <i class="fas fa-chevron-right me-2"></i> Enhance
+                          productivity
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse col-bg"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          Centralization of data & automations leads to better
+                          accessibility of information, reduction in manual
+                          efforts and minimization of errors, leading to
+                          increase in efficiency & productivity.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button px-0 collapsed col-bg"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                          <i class="fas fa-chevron-right me-2"></i> Better
+                          resource planning
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse col-bg"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          ERP provides a bird’s-eye view of resources across the
+                          entire enterprise. This visibility enables accurate
+                          forecasting of resource needs, whether it's related to
+                          manpower, inventory, or equipment.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col px-2">
+              <div class="card col-bg">
+                <row>
+                  <div class="col-2">
+                    <img
+                      src="images/icon_2.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                </row>
+                <div class="card-body">
+                  <h5 class="card-title col-pink py-0">PEACE OF MIND</h5>
+                  <div class="accordion" id="accordionExample1">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button px-0 collapsed col-bg"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          <i class="fas fa-chevron-right me-2"></i>Improved
+                          collaboration
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseThree"
+                        class="accordion-collapse collapse col-bg"
+                        data-bs-parent="#accordionExample1"
+                      >
+                        <div class="accordion-body">
+                          ERP plays a pivotal role in breaking down
+                          communication barriers, promoting teamwork, and
+                          creating an environment where collaboration becomes an
+                          integral part of daily operations.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button px-0 collapsed col-bg"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseFour"
+                          aria-expanded="false"
+                          aria-controls="collapseFour"
+                        >
+                          <i class="fas fa-chevron-right me-2"></i>Simplify
+                          compliance & risk management
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseFour"
+                        class="accordion-collapse collapse col-bg"
+                        data-bs-parent="#accordionExample1"
+                      >
+                        <div class="accordion-body">
+                          Integrating compliance features streamlines data
+                          privacy, financial reporting, and other regulatory
+                          compliance. This enhances overall risk management &
+                          simplifies regulatory compliance.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col px-2">
+              <div class="card col-bg">
+                <row>
+                  <div class="col-2">
+                    <img
+                      src="images/icon_3.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                </row>
+                <div class="card-body">
+                  <h5 class="card-title col-pink py-0">SCALABILITY</h5>
+                  <div class="accordion" id="accordionExample2">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button px-0 collapsed col-bg"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseFive"
+                          aria-expanded="false"
+                          aria-controls="collapseFive"
+                        >
+                          <i class="fas fa-chevron-right me-2"></i> Analytics
+                          for business strategy
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseFive"
+                        class="accordion-collapse collapse col-bg"
+                        data-bs-parent="#accordionExample2"
+                      >
+                        <div class="accordion-body">
+                          ERP offers a holistic view for decision-makers, aiding
+                          them in trend analysis and future demand forecasting.
+                          It is a foundational tool vital for developing &
+                          executing successful business strategies.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button px-0 collapsed col-bg"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseSix"
+                          aria-expanded="false"
+                          aria-controls="collapseSix"
+                        >
+                          <i class="fas fa-chevron-right me-2"></i> Platform for
+                          exponential growth
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseSix"
+                        class="accordion-collapse collapse col-bg"
+                        data-bs-parent="#accordionExample2"
+                      >
+                        <div class="accordion-body">
+                          ERP provides unmatched speed, performance, and
+                          security, allowing businesses to grow with confidence.
+                          It streamlines business process creating a platform to
+                          achieve sustainable long-term growth.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ERP myths -->
+    <section class="erp-myths slideshow d-flex section3" id="erpmyths">
+      <div class="custom-section scroll" data-direction="vertical">
+        <div class="container">
+          <div
+            class="row pt-5 text-lg-end text-md-center slideLeftToRightUpwards visible"
+          >
+            <div class="col-lg-6 text-start">
+              <div class="detail content-2 py-5">
+                <!-- slideshow:details START -->
+                <div class="detail-item active">
+                  <div class="headline">
+                    <h5 class="card-title col-pink">
+                      Only for Large companies:
+                    </h5>
+
+                    <p>
+                      In reality, ERP solutions come in various sizes and can be
+                      scaled to meet the needs of businesses of all sizes. Also,
+                      modern ERP solutions are versatile and applicable across
+                      various industries.
+                    </p>
+                  </div>
+                  <!-- <div class="background" style="background-image: url(assets/img/img-6.jpg);"></div>  -->
+                </div>
+                <!-- slideshow:details END -->
+
+                <!-- slideshow:details START -->
+                <div class="detail-item">
+                  <div class="headline">
+                    <h5 class="card-title col-pink">Very Expensive</h5>
+                    <p>
+                      Cost is a common concern, but Cloud-based ERP solutions,
+                      subscription models, and open-source options have made ERP
+                      more affordable and accessible for businesses of different
+                      sizes.
+                    </p>
+                  </div>
+                  <!-- <div class="background" style="background-image: url(assets/img/img-5.jpg);"></div> -->
+                </div>
+                <!-- slideshow:details END -->
+
+                <!-- slideshow:details START -->
+                <div class="detail-item">
+                  <div class="headline">
+                    <h5 class="card-title col-pink">
+                      Implementation Takes Too Long
+                    </h5>
+                    <p>
+                      With proper planning, effective project management, and
+                      the right resources, ERP implementations can be executed
+                      efficiently, and some solutions offer rapid deployment
+                      options.
+                    </p>
+                  </div>
+                  <!-- <div class="background" style="background-image: url(assets/img/img-4.jpeg);"></div> -->
+                </div>
+                <!-- slideshow:details END -->
+
+                <!-- slideshow:details START -->
+                <div class="detail-item">
+                  <div class="headline">
+                    <h5 class="card-title col-pink">One-Size-Fits-All:</h5>
+                    <p>
+                      ERP solutions are customizable and can empower businesses
+                      to optimize their technological infrastructure by adapting
+                      to industry-specific needs and accommodating evolving
+                      internal processes.
+                    </p>
+                  </div>
+                  <!-- <div class="background" style="background-image: url(assets/img/img-3.jpg);"></div> -->
+                </div>
+                <!-- slideshow:details END -->
+
+                <!-- slideshow:details START -->
+                <div class="detail-item">
+                  <div class="headline">
+                    <h5 class="card-title col-pink">
+                      Solves All Problems Instantly
+                    </h5>
+                    <p>
+                      ERP is a powerful tool, but it won’t magically solve all
+                      operational issues. Successful implementation demands
+                      strategic planning, with businesses considering ERP as
+                      part of a broader transformation strategy.
+                    </p>
+                  </div>
+                  <!-- <div class="background" style="background-image: url(assets/img/statue.jpg);"></div> -->
+                </div>
+                <!-- slideshow:details END -->
+
+                <div class="detail-item">
+                  <div class="headline">
+                    <h5 class="card-title col-pink">
+                      Only for IT Or is Just an IT project
+                    </h5>
+                    <p>
+                      ERP's diverse modules serve users from various
+                      departments. Also, successful ERP implementation requires
+                      collaboration across departments, involving key
+                      stakeholders from finance, operations, HR, and more.
+                    </p>
+                  </div>
+                  <!-- <div class="background" style="background-image: url(assets/img/img-1.jpeg); height: 100vh;"></div>
+                      <div class="background" style="background-image: url(assets/img/img-1.jpeg); height: 100vh; background-size: cover; background-position: center;"></div> -->
+                </div>
+                <!-- slideshow:details END -->
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <div class="erpmythBox">
+                <ul class="navigation">
+                  <li class="navigation-item active">
+                    <span class="rotate-holder"></span>
+                    <span
+                      class="background-holder"
+                      style="background-image: url(./images/industry-icon.png)"
+                    ></span>
+                  </li>
+                  <!-- slideshow:navigation:item END -->
+
+                  <!-- slideshow:navigation:item START -->
+                  <li class="navigation-item">
+                    <span class="rotate-holder"></span>
+                    <span
+                      class="background-holder"
+                      style="
+                        background-image: url(./images/exppensive-iconn.png);
+                      "
+                    ></span>
+                  </li>
+
+                  <li class="navigation-item">
+                    <span class="rotate-holder"></span>
+                    <span
+                      class="background-holder"
+                      style="background-image: url(./images/too-long-icon.png)"
+                    ></span>
+                  </li>
+
+                  <li class="navigation-item">
+                    <span class="rotate-holder"></span>
+                    <span
+                      class="background-holder"
+                      style="
+                        background-image: url(./images/one-size-fits-all.png);
+                      "
+                    ></span>
+                  </li>
+
+                  <li class="navigation-item">
+                    <span class="rotate-holder"></span>
+                    <span
+                      class="background-holder"
+                      style="
+                        background-image: url(./images/solve-propblem-icon.png);
+                      "
+                    ></span>
+                  </li>
+
+                  <li class="navigation-item">
+                    <span class="rotate-holder"></span>
+                    <span
+                      class="background-holder"
+                      style="background-image: url(./images/it-icon.png)"
+                    ></span>
+                  </li>
+                  <!--         
+                    <li class="navigation-item">
+                      <span class="rotate-holder"></span>
+                      <span class="background-holder" style="background-image: url(assets/img/hong.jpg);"></span>
+                    </li>
+                     
+                    <li class="navigation-item">
+                      <span class="rotate-holder"></span>
+                      <span class="background-holder" style="background-image: url(assets/img/img-8.jpeg);"></span>
+                    </li>
+                     
+                    <li class="navigation-item">
+                      <span class="rotate-holder"></span>
+                      <span class="background-holder" style="background-image: url(assets/img/img-9.jpg);"></span>
+                    </li>
+                    -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- what we do -->
+    <section class="align-items-top section4" id="whatwedo">
+      <div class="custom-section container scroll" data-direction="vertical">
+        <div class="row">
+          <div class="col-md-6 p-5">
+            <h2 class="col-pink headOne animatedElement">WHAT</h2>
+            <h3 class="col-blue headTwo ms-5 animatedElement">WE DO</h3>
+            <img
+              src="images/banner2.png"
+              alt=""
+              class="img-fluid slideLeftToRightUpwards mob-img"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="row mt-md-5">
+              <div class="col">
+                <div class="card col-bg">
+                  <div class="card-body">
+                    <div class="accordion" id="accordionExample4">
+                      <hr class="animatedElement" />
+                      <div class="accordion-item slideLeftToRightUpwards">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed col-bg py-0"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="collapseSeven"
+                          >
+                            <img
+                              src="images/acc_icon_1.png"
+                              alt=""
+                              class="img-fluid me-2"
+                            />
+                            Initial assessment & Migration
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseSeven"
+                          class="accordion-collapse collapse col-bg"
+                          data-bs-parent="#accordionExample4"
+                        >
+                          <div class="accordion-body">
+                            <hr />
+                            We assess your current processes and align ERP
+                            implementation with organizational goals. Our
+                            structured approach covers system selection, cost
+                            optimization, time planning, and ERP module
+                            prioritization
+                            <hr />
+                            Migration involves seamlessly transferring existing
+                            data from legacy systems to the new ERP system. We
+                            ensure data accuracy, integrity, and security during
+                            this transfer.
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="animatedElement" />
+                      <div class="accordion-item slideLeftToRightUpwards">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed col-bg py-0"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseEight"
+                            aria-expanded="false"
+                            aria-controls="collapseEight"
+                          >
+                            <img
+                              src="images/acc_icon_2.png"
+                              alt=""
+                              class="img-fluid me-2"
+                            />
+                            Customize & Automate
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseEight"
+                          class="accordion-collapse collapse col-bg"
+                          data-bs-parent="#accordionExample4"
+                        >
+                          <div class="accordion-body">
+                            <hr />
+                            We specialize in comprehending your business needs &
+                            customizing the ERP solution accordingly. This
+                            involves evaluating unique workflows and fine-tuning
+                            ERP modules to achieve required objectives.
+                            <hr />
+                            We identify and incorporate automation which can
+                            replace routine and repetitive tasks resulting in
+                            reduction in manual efforts and minimal errors.
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="animatedElement" />
+                      <div class="accordion-item slideLeftToRightUpwards">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed col-bg py-0"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseNine"
+                            aria-expanded="false"
+                            aria-controls="collapseNine"
+                          >
+                            <img
+                              src="images/acc_icon_3.png"
+                              alt=""
+                              class="img-fluid me-2"
+                            />
+                            Data Analytics and dashboards
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseNine"
+                          class="accordion-collapse collapse col-bg"
+                          data-bs-parent="#accordionExample4"
+                        >
+                          <div class="accordion-body">
+                            <hr />
+                            After collecting relevant data points, it is
+                            important to analyze and derive actionable insights
+                            to enhance decision-making processes. Effective use
+                            of ERP can help organizations achieve this.
+                            <hr />
+                            We create dashboards that show Key KPIs and critical
+                            metrics in a manner that helps executives to monitor
+                            quickly respond to challenges in the business
+                            landscape.
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="animatedElement" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why work with us -->
+    <section
+      class="why-work-with-us align-items-top section5 vh-100"
+      id="whywork"
+    >
+      <div class="custom-section container scroll" data-direction="vertical">
+        <div class="row pt-3 py-0">
+          <div class="col text-center">
+            <h3 class="col-pink headOne animatedElement">WHY WORK</h3>
+            <h2 class="col-blue headTwo animatedElement">WITH US</h2>
+            <p class="slideLeftToRightUpwards py-2">
+              We are not a traditional ERP implementation consultant but a
+              Strategic and <br />
+              funcitonal advisor for your business requirements
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col">
+                <div class="card col-bg">
+                  <div class="card-body">
+                    <div class="accordion" id="accordionExample5">
+                      <hr class="animatedElement" />
+                      <div class="accordion-item slideLeftToRightUpwards">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed col-bg py-0"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="collapseSeven"
+                          >
+                            <img
+                              src="images/icon_4-cpy.png"
+                              alt=""
+                              class="img-fluid me-2"
+                            />
+                            Strategic bend aligning ERP to your long-term goals
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseSeven"
+                          class="accordion-collapse collapse col-bg"
+                          data-bs-parent="#accordionExample5"
+                        >
+                          <div class="accordion-body">
+                            <hr />
+                            We blend technical proficiency with strategic acumen
+                            to align ERP systems with organizational goals. Our
+                            expertise optimizes the interplay between processes
+                            & technology enabling achievement of long-term
+                            goals.
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="animatedElement" />
+                      <div class="accordion-item slideLeftToRightUpwards">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed col-bg py-0"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseEight"
+                            aria-expanded="false"
+                            aria-controls="collapseEight"
+                          >
+                            <img
+                              src="images/icon_5 copy.png"
+                              alt=""
+                              class="img-fluid me-2"
+                            />
+
+                            Operational expertise for apt customization
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseEight"
+                          class="accordion-collapse collapse col-bg"
+                          data-bs-parent="#accordionExample5"
+                        >
+                          <div class="accordion-body">
+                            <hr />
+                            Our experience in business operations helps us to
+                            better understand your business requirements and
+                            incorporate relevant ERP customization and
+                            automation to suit your business needs.
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="animatedElement" />
+                      <div class="accordion-item slideLeftToRightUpwards">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed col-bg py-0"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseNine"
+                            aria-expanded="false"
+                            aria-controls="collapseNine"
+                          >
+                            <img
+                              src="images/icon_6_copy.png"
+                              alt=""
+                              class="img-fluid me-2"
+                            />
+
+                            Dashboards and analytics for actionable insights
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseNine"
+                          class="accordion-collapse collapse col-bg"
+                          data-bs-parent="#accordionExample5"
+                        >
+                          <div class="accordion-body">
+                            <hr />
+                            We specialize in crafting intuitive & actionable
+                            dashboards for key decision-makers. Understanding
+                            data needs of managers at all levels, we design
+                            dashboards that aid in monitoring & responding to
+                            business challenges.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact-us section -->
+    <section id="connect" class="contact-us align-items-start">
+      <div class="custom-section contactBox">
+        <div
+          class="container-fluid col-mix scroll px-5"
+          data-direction="vertical"
+        >
+          <div class="row d-flex align-items-center justify-content-around">
+            <div class="col-lg-6 mx-auto">
+              <div class="row">
+                <div class="col-md-8 pt-5 text-white ms-lg-5 connectus">
+                  <h3 class="h1-heading animatedElement">LET'S TALK</h3>
+                  <h4 class="h3-text animatedElement">Get in touch</h4>
+                  <p class="py-4 text-white animatedElement">
+                    <strong>Address:</strong> Office no. 113, 1st floor,
+                    <br />
+                    Corporate Avenue bldg, <br />
+                    Sonawala road, Opp. Atlanta Centre, <br />
+                    Goregaon east,<br />
+                    Mumbai - 400063
+                  </p>
+                  <h5 class="animatedElement">hello@pagekraft.in</h5>
+                  <h5 class="animatedElement">+91 22 47496692</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mx-auto">
+              <div class="row">
+                <div class="col-lg-8 ms-lg-5">
+                  <div class="bg-white shadow mt-5 rounded-4">
+                    <div class="row text-center bg-pink mx-0 rounded-top-4">
+                      <h5 class="p-3 text-white">Get Started!</h5>
+                    </div>
+                    <form
+                      class="animatedElement p-5"
+                      method="post"
+                      id="contactForm"
+                    >
+                      <div class="input-group mb-4" id="fname-groupcopy">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="fname"
+                          placeholder="First Name"
+                          aria-label="Username"
+                          autocomplete="username"
+                          required
+                          name="fname"
+                        />
+                      </div>
+                      <div class="input-group mb-4" id="lname-groupcopy">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="lname"
+                          placeholder="Last Name"
+                          aria-label="Username"
+                          autocomplete="username"
+                          required
+                          name="lname"
+                        />
+                      </div>
+                      <div class="input-group mb-4" id="cname-groupcopy">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="cname"
+                          placeholder="Company Name"
+                          aria-label="Companyname"
+                          autocomplete="username"
+                          required
+                          name="cname"
+                        />
+                      </div>
+                      <div class="input-group mb-4" id="email-groupcopy">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Email Id"
+                          aria-label="Email"
+                          autocomplete="email"
+                          required
+                          name="email"
+                        />
+                      </div>
+                      <div class="input-group mb-4" id="message-groupcopy">
+                        <textarea
+                          class="form-control"
+                          id="message"
+                          rows="1"
+                          placeholder="Your requirement"
+                          name="message"
+                          required
+                        ></textarea>
+                      </div>
+                      <div class="row text-center">
+                        <div class="col">
+                          <button
+                            type="button"
+                            class="btn rounded-pill px-5 col-mix"
+                          >
+                            Send
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+          <div class="container">
+            <div class="row justify-content-md-start justify-content-center">
+              <div class="col-lg-8 col-md-12 text-md-start text-center">
+                <a href="#" target="_blank">
+                  <img src="images/P.svg" class="img-fluid pe-2" alt="" />
+                </a>
+                <a href="#" target="_blank">
+                  <img src="images/x.png" class="img-fluid pe-2" alt="" />
+                </a>
+                <a href="#" target="_blank">
+                  <img src="images/YouTube.svg" class="img-fluid pe-2" alt="" />
+                </a>
+                <a href="#" target="_blank">
+                  <img src="images/f.svg" class="img-fluid pe-2" alt="" />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <p class="copiright text-md-center text-lg-end">
+                  Copyright &copy; 2023 syskraft all right reserved
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- <svg
+          width="1440"
+          height="4378"
+          viewBox="0 0 1440 4378"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="linegroup"
+        >
+          <path
+            d="M707.853 0V213.555C707.853 213.555 705.132 333.047 745.984 381.793C789.759 434.026 871.965 402.981 928.702 381.793C1004.43 353.512 1031.14 326.926 1102.4 301.496C1150.64 284.282 1229.23 264.629 1229.23 264.629C1229.23 264.629 1334.15 244.78 1406.87 254.859C1477.03 264.583 1520.63 281.276 1576.36 320.822C1626.24 356.211 1648.05 383.472 1674.93 434.254C1696.44 474.868 1695.97 556.317 1695.97 556.317C1695.97 556.317 1696.29 639.438 1674.93 685.777C1662.8 712.098 1652.99 725.729 1634.06 747.424C1582.12 806.958 1535.37 823.1 1456.15 839.896C1391.97 853.504 1346.47 848.312 1280.31 846.41C1184.5 843.654 1114.65 829.8 1019.46 819.139C928.647 808.968 772.165 793.66 772.165 793.66L564.203 765.302L352.034 747.424C352.034 747.424 184.705 740.374 83.9675 765.302C20.7067 780.956 -14.866 789.874 -70.5012 822.634C-124.01 854.143 -154.456 875.774 -192.513 925.586C-221.989 964.166 -234.666 989.804 -250.815 1035.94C-262.955 1070.62 -266.931 1091.29 -271.851 1127.79C-279.085 1181.45 -285.835 1214.26 -271.851 1266.5C-261.178 1306.37 -248.387 1327.17 -224.97 1360.82C-185.583 1417.42 -149.934 1439.12 -92.1389 1475.48C9.79981 1539.61 201.772 1563.64 201.772 1563.64L452.408 1604.94C452.408 1604.94 646.964 1632.42 772.165 1645.01L1042.03 1666.59C1042.03 1666.59 1210.52 1682.79 1316.71 1704.2C1400.22 1721.03 1450.92 1721.43 1528.28 1757.83C1594.55 1789.01 1634.31 1809.13 1683.35 1864.48C1729.15 1916.17 1759.47 1948.5 1768.7 2020.45C1776.52 2081.45 1763.71 2124.38 1741.05 2181.35C1725.03 2221.61 1711.06 2242.76 1683.35 2275.67C1625.36 2344.54 1569.28 2358.14 1488.01 2394.65C1391.93 2437.81 1332.01 2444.26 1228.96 2467.39C1138.82 2487.63 995.152 2508.7 995.152 2508.7C995.152 2508.7 845.705 2538.73 750.527 2559.87C658.874 2580.22 608.509 2594.81 516.72 2614.73C440.976 2631.17 321.981 2654.19 321.981 2654.19L99.8607 2692.75C99.8607 2692.75 -42.5821 2730.7 -108.968 2784.16C-181.039 2842.2 -230.98 2972.91 -230.98 2972.91C-230.98 2972.91 -269.117 3078.73 -274.856 3146.14C-279.002 3194.82 -279.799 3227.07 -274.856 3274.36C-267.211 3347.52 -237.592 3453.76 -237.592 3453.76C-237.592 3453.76 -200.29 3590.84 -156.451 3668.91C-122.054 3730.16 -95.3176 3774.23 -54.874 3821.18C-24.1687 3856.82 23.2619 3915.5 23.2619 3915.5C23.2619 3915.5 71.7978 3976.35 81.5633 4025.85C88.5462 4061.24 88.9051 4091.01 81.5633 4126.33C68.64 4188.5 17.1097 4308.92 -18.5 4366.5C-59.5356 4432.86 -65.9826 4585.76 -18.5 4762.5"
+            stroke="black"
+            stroke-linejoin="round"
+          />
+        </svg> -->
+    </div>
+
+    <!-- Bootstrap JS and Popper.js (dependency) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const burgerMenu = document.getElementById("burger-menu");
+        const menu = document.getElementById("menu");
+        const closeBtn = document.getElementById("close-btn");
+        const menuItems = menu.querySelectorAll("a");
+
+        burgerMenu.addEventListener("click", function (event) {
+          event.stopPropagation(); // Prevent the click event from propagating to the document
+          menu.style.display = menu.style.display === "none" ? "block" : "none";
+          burgerMenu.style.display = "none";
+        });
+
+        closeBtn.addEventListener("click", function () {
+          menu.style.display = "none";
+          burgerMenu.style.display = "block";
+        });
+
+        menuItems.forEach(function (menuItem) {
+          menuItem.addEventListener("click", function () {
+            menu.style.display = "none";
+            burgerMenu.style.display = "block";
+          });
+        });
+
+        // Close the menu when clicking outside the side navbar
+        document.addEventListener("click", function (event) {
+          if (!menu.contains(event.target) && event.target !== burgerMenu) {
+            menu.style.display = "none";
+            burgerMenu.style.display = "block";
+          }
+        });
+      });
+    </script>
+
+    <!-- Script for svg line scrolling effect -->
+    <script>
+      // const svg = document.querySelector("svg.linegroup");
+      // const path = svg.querySelector("path");
+
+      // const scroll = () => {
+      //   const distance = window.scrollY*4;
+      //   const totalDistance = document.body.clientHeight - window.innerHeight;
+      //   // console.log(window.innerHeight + 'windowscroll');
+      //   //  console.log(document.body.clientHeight + 'document.body.clientHeight');
+      //   //  console.log(window.innerHeight + 'window.innerHeight');
+
+      //   const percentage = distance / totalDistance;
+
+      //   const pathLength = path.getTotalLength();
+
+      //   console.log(pathLength + 'pathLength');
+
+      //   path.style.strokeDasharray = `${pathLength}`;
+      //   path.style.strokeDashoffset = `${pathLength * (1 - percentage)}`;
+      // };
+
+      //scroll();
+
+      //window.addEventListener("scroll", scroll);
+    </script>
+
+    <script>
+      function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    </script>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetSection = document.querySelector(
+            this.getAttribute("href")
+          );
+
+          targetSection.scrollIntoView({
+            behavior: "smooth",
+            block: "center", // Align to the center of the viewport
+            inline: "start", // Align to the start of the inline axis (top in this case)
+          });
+        });
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll(".navbar-nav a");
+
+        navLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            if (navbarToggler.offsetParent !== null) {
+              // Close the navigation menu for smaller screens
+              document
+                .querySelector(".navbar-collapse")
+                .classList.remove("show");
+            }
+          });
+        });
+      });
+    </script>
+
+    <!-- Transition effects -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var animatedElements = document.querySelectorAll(".animatedElement");
+
+        var observer = new IntersectionObserver(
+          function (entries, observer) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+              } else {
+                entry.target.classList.remove("visible");
+              }
+            });
+          },
+          { threshold: 0.5 }
+        );
+
+        animatedElements.forEach(function (element) {
+          observer.observe(element);
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var slideLeftToRightUpwardsElements = document.querySelectorAll(
+          ".slideLeftToRightUpwards"
+        );
+
+        var observer = new IntersectionObserver(
+          function (entries, observer) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+              } else {
+                entry.target.classList.remove("visible");
+              }
+            });
+          },
+          { threshold: 0.5 }
+        );
+
+        slideLeftToRightUpwardsElements.forEach(function (element) {
+          observer.observe(element);
+        });
+      });
+
+      /* sticky navbar */
+
+      document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > 50) {
+            document
+              .getElementById("navbar_top")
+              .classList.add("fixed-top", "animated", "fadeInDown");
+            //document.getElementById('navbar_top').style.transition = 'all 1.5s ease';
+            // add padding top to show content behind navbar
+            navbar_height = document.querySelector(".navbar").offsetHeight;
+            document.body.style.paddingTop = navbar_height + "px";
+          } else {
+            document
+              .getElementById("navbar_top")
+              .classList.remove("fixed-top", "animated", "fadeInDown");
+            // remove padding top from body
+            document.body.style.paddingTop = "0";
+          }
+        });
+      });
+    </script>
+
+    <!--Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Your Custom Script -->
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: false,
+        autoplayHoverPause: true,
+        margin: 50,
+        autoplay: false,
+        responsive: {
+          0: {
+            items: 1,
+            autoplay: true,
+            loop: true,
+          },
+          600: {
+            items: 2,
+            autoplay: true,
+            loop: true,
+          },
+          1000: {
+            items: 3,
+            autoplay: false,
+            loop: false,
+          },
+        },
+      });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/TextPlugin.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

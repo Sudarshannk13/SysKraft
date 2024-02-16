@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38.897" height="38.897" viewBox="0 0 38.897 38.897">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_36" data-name="Rectangle 36" width="38.897" height="38.897" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="YouTube" opacity="0.5">
+    <g id="Group_7006" data-name="Group 7006" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_2644" data-name="Path 2644" d="M19.486,38.755h0a19.27,19.27,0,1,1,19.27-19.27A19.27,19.27,0,0,1,19.486,38.755Z" transform="translate(-0.037 -0.037)" fill="none" stroke="#141613" stroke-width="0.432"/>
+      <path id="Path_2645" data-name="Path 2645" d="M31.49,16.723a2.688,2.688,0,0,0-1.89-1.9c-1.667-.45-8.349-.45-8.349-.45s-6.683,0-8.349.45a2.688,2.688,0,0,0-1.89,1.9,28.182,28.182,0,0,0-.446,5.177,28.194,28.194,0,0,0,.446,5.177,2.687,2.687,0,0,0,1.89,1.9c1.666.45,8.349.45,8.349.45s6.682,0,8.349-.45a2.687,2.687,0,0,0,1.89-1.9,28.194,28.194,0,0,0,.446-5.177,28.182,28.182,0,0,0-.446-5.177M19.065,25.077V18.722L24.651,21.9Z" transform="translate(-1.802 -2.451)" fill="#141613"/>
+    </g>
+  </g>
+</svg>

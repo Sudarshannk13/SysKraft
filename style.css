@@ -1,0 +1,662 @@
+body {
+  background-color: #ffffff !important;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  font-size: 1em;
+}
+
+hr {
+  border-color: #bebcbc;
+}
+
+/* .line-container1 {
+  position: fixed;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+ */
+/* svg line */
+svg {
+  display: inline-block;
+  height: 100%;
+}
+
+svg.linegroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 750px;
+  z-index: 1;
+}
+
+svg.linegroup1 {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100vw;
+  height: 750px;
+  z-index: 1;
+}
+
+svg.linegroup2 {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  width: 100vw;
+  height: 750px;
+  z-index: 1;
+}
+
+svg.linegroup,
+svg.linegroup1,
+svg.linegroup2 {
+  stroke-width: 0.1rem;
+}
+
+section {
+  min-height: 700px;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  overflow: hidden;
+  padding-top: 80px;
+}
+.section1 {
+  height: 100svh;
+  background: url("images/bg-section1.png") top left no-repeat;
+}
+.section3 {
+  background: url("images/bg-section3.png") top left no-repeat;
+}
+.section5 {
+  background: url("images/bg-section5.png") top right no-repeat;
+  padding-top: 80px;
+}
+
+.section1,
+.section2,
+.section3,
+.section4,
+.section5 {
+  display: flex; /* Add this line */
+}
+
+.col-bg {
+  background-color: transparent;
+}
+
+.accordion-item,
+.card {
+  border: none;
+}
+#navbar_top {
+  -webkit-box-shadow: 0 4px 3px -3px #e2e2e2;
+  -moz-box-shadow: 0 4px 3px -3px #e2e2e2;
+  box-shadow: 0 4px 3px -3px #e2e2e2;
+}
+.navbar-nav .nav-item {
+  padding: 0 8px;
+}
+.navbar-nav .active a {
+  font-weight: bold;
+  color: #da7ac0;
+}
+.navbar-nav .nav-link {
+  color: #ffffff; /* Set the default text color to black */
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000000;
+}
+
+#menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: -1px 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  z-index: 1111;
+  padding: 30px 80px 0 30px;
+}
+
+#menu a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #13213b;
+  font-weight: bold;
+}
+
+#close-btn {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  cursor: pointer;
+  display: inline;
+  font-weight: bold;
+  z-index: 3;
+  font-size: 1.7em;
+  color: #000000;
+}
+
+.card-title {
+  padding-bottom: 10px;
+}
+.col-pink {
+  color: #da7ac0;
+}
+.col-blue {
+  color: #405da9;
+}
+.col-mix {
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    132deg,
+    rgba(64, 93, 169, 1) 25%,
+    rgba(238, 130, 238, 1) 86%
+  );
+  color: #ffffff;
+}
+.bg-pink {
+  background-color: rgb(255, 144, 214);
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+h4 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+h5 {
+  font-size: 25px;
+}
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 26px;
+}
+
+h2.headOne {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+h2.headTwo {
+  font-size: 4rem;
+  line-height: 0.9;
+}
+
+h3.headOne {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+h3.headTwo {
+  font-size: 3.5rem;
+  line-height: 0.9;
+}
+
+.mouse-icon {
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  background-color: black; /* Change to the desired color */
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+  transition: all 0.5s;
+  border-radius: 50%;
+  border: solid 1px #000000;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+/* contact us */
+.contactBox {
+  background: #d4d4d4;
+}
+
+.contact-us .bg-white {
+  margin-bottom: 50px;
+}
+
+.input-group input,
+.input-group textarea {
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+/* footer */
+.footer {
+  padding-top: 20px;
+  background: #ffffff;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.copiright {
+  color: #979595;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+/*  ERP myth start */
+
+body section.slideshow {
+  position: relative;
+  display: block;
+  /* width: 100%;
+  height: 100%;
+  height: 100vh;
+  margin: 0 auto; */
+  visibility: hidden;
+  overflow: hidden;
+}
+
+body section.slideshow ul.navigation {
+  display: block;
+  width: 550px;
+  height: 550px;
+  padding: 0;
+  z-index: 10;
+}
+.erpmythBox {
+  position: relative;
+  background-image: url("./images/erp-myth-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 550px;
+  height: 550px;
+}
+
+body section.slideshow ul.navigation li:nth-child(1).active .background-holder {
+  background: url("./images/industry-icon-active.png") !important;
+  background-size: cover !important;
+}
+
+body section.slideshow ul.navigation li:nth-child(2).active .background-holder {
+  background: url("./images/exppensive-icon-active.png") !important;
+  background-size: cover !important;
+}
+
+body section.slideshow ul.navigation li:nth-child(3).active .background-holder {
+  background: url("./images/too-long-icon-active.png") !important;
+  background-size: cover !important;
+}
+
+body section.slideshow ul.navigation li:nth-child(4).active .background-holder {
+  background: url("./images/one-size-fits-all-active.png") !important;
+  background-size: cover !important;
+}
+
+body section.slideshow ul.navigation li:nth-child(5).active .background-holder {
+  background: url("./images/solve-propblem-icon-active.png") !important;
+  background-size: cover !important;
+}
+
+body section.slideshow ul.navigation li:nth-child(6).active .background-holder {
+  background: url("./images/it-icon-active.png") !important;
+  background-size: cover !important;
+}
+
+body section.slideshow ul.navigation li.navigation-item {
+  position: absolute;
+  display: inline-block;
+  /* overflow: hidden; */
+  width: 150px;
+  height: 166px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  /* border-radius: 50%; */
+  transition: border 0.6s ease-in-out;
+}
+
+body section.slideshow ul.navigation li.navigation-item .rotate-holder {
+  position: fixed;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -9999px;
+  top: -9999px;
+}
+
+body section.slideshow ul.navigation li.navigation-item .background-holder {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* border-radius: 50%; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+}
+
+body
+  section.slideshow
+  ul.navigation
+  li.navigation-item:hover
+  .background-holder {
+  opacity: 0.75;
+}
+
+body
+  section.slideshow
+  ul.navigation
+  li.navigation-item.active
+  .background-holder {
+  opacity: 1;
+  /* visibility: hidden; */
+}
+
+body section.slideshow .detail {
+  display: block;
+  width: 550px;
+  height: 550px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 8;
+  background: url("./images/active-iconn.png") right center no-repeat;
+  padding-right: 100px;
+}
+
+body section.slideshow .detail .detail-item {
+  position: relative;
+  display: block;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+body section.slideshow .detail .detail-item .headline {
+  position: absolute;
+  display: block;
+  top: 150px;
+
+  /* max-width: calc(100% - 480px); */
+
+  overflow: visible;
+  z-index: 2;
+}
+
+body section.slideshow .detail .detail-item .headline .letter {
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+  visibility: hidden;
+  color: #ffffff;
+  font-size: 132px;
+  line-height: 110px;
+  font-weight: 900;
+  font-kerning: none;
+  white-space: nowrap;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+body section.slideshow .detail .detail-item .background {
+  position: absolute;
+  display: block;
+  width: 100%;
+  width: calc(100% + 100px);
+  height: 100%;
+  height: calc(100% + 100px);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 1;
+}
+
+body section.slideshow .detail .detail-item .background::before {
+  content: "";
+  background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0) 90%);
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+body section.slideshow .detail .detail-item.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ERP myth ends */
+
+@media screen and (min-width: 1024px) {
+  .section4 {
+    height: 100svh;
+  }
+  .section5 {
+    height: 100svh;
+  }
+  .section5 .card {
+    width: 70%;
+    margin: 0 auto;
+  }
+  /* Transition effects for elements */
+  .animatedElement {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
+
+  /* Visible on scroll with fade-in and sliding-up effect */
+  .animatedElement.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Initially hidden below viewport */
+  .slideLeftToRightUpwards {
+    opacity: 0;
+    transform: translateY(50px) translateX(-50px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
+
+  /* Visible on scroll with fade-in, sliding-up, and rightward movement effect */
+  .slideLeftToRightUpwards.visible {
+    opacity: 1;
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body section.slideshow .detail {
+    display: block;
+    text-align: center;
+    width: inherit;
+    min-height: 300px;
+    height: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 8;
+    background: url(./images/active-icon-verticle.png) bottom center no-repeat;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  body section.slideshow .detail .detail-item .headline {
+    top: 0;
+  }
+
+  .erpmythBox {
+    margin: 0 auto;
+  }
+
+  .section1 {
+    height: auto;
+    padding-top: 50px;
+  }
+  section {
+    padding: 75px 0;
+  }
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .connectus {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body section.slideshow .detail {
+    min-height: 360px !important;
+    height: inherit;
+    padding: 0 60px !important;
+  }
+  body section.slideshow ul.navigation {
+    width: 450px;
+    height: 450px;
+  }
+  .head-1 {
+    padding-top: 50px !important;
+  }
+  .mob-img {
+    width: 70%;
+    align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .erpmythBox {
+    width: 450px;
+    height: 450px;
+    background-image: url("./images/erp-myth-icon-mobile.png");
+  }
+
+  body section.slideshow ul.navigation li.navigation-item {
+    width: 120px;
+    height: 133px;
+  }
+  .option-1 {
+    margin-top: 200px;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .copiright {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  h2.headOne {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  h2.headTwo {
+    font-size: 2rem;
+    line-height: 0.9;
+  }
+
+  h3.headOne {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  h3.headTwo {
+    font-size: 2.5rem;
+    line-height: 0.9;
+  }
+}
+
+/* owl-carousel */
+
+.owl-carousel {
+  padding-top: 20px;
+}
+
